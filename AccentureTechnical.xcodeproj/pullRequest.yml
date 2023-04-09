@@ -1,0 +1,13 @@
+#name: Pull Request
+#
+#on:
+#    pull_request:
+#        branches:
+#            - develop
+#        workflow_dispatch:
+#
+#jobs:
+#    test:
+#        runs-on: macos-11
+#        steps:
+#            -uses: actions.checkout@v2
